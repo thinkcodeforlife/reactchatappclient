@@ -19,7 +19,7 @@ const Chat = ({ location }) => {
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
 
-    const ENPOINT = 'localhost:5000';
+    const ENPOINT = 'https://loving-kirch-5d275f.netlify.com';
 
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
