@@ -19,7 +19,7 @@ const Chat = ({ location }) => {
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
 
-    const ENPOINT = 'https://git.heroku.com/react-chat-app-backend-ex.git';
+    const ENPOINT = 'https://react-chat-app-backend-ex.herokuapp.com/';
 
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
